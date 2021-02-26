@@ -52,32 +52,22 @@ a{
 .middle-container {
   margin: 100px 0;
 }
+
+
 .intro {
   width: 30%;
   margin: auto;
 }
+.skills{
+  text-align: center;
+}
 .skill-row{
-  width: 50%;
-  margin:100px auto;
-  text-align: left;
-
-
+  margin: auto;
+  width: 20%;
 }
-.androidMonster{
-  width: 13%;
-  float: left;
-  margin-right: 30px;
+.skillImg{
+  width: 10%;
 }
-.rocket{
-  width: 13%;
-  float: right;
-  margin-left: 30px;
-}
-.funnymonster{
-  width: 7%;
-  margin-top: 20px;
-}
-
 .contact-me{
   width: 40%;
   margin: 40px auto;
@@ -85,10 +75,33 @@ a{
 .Paragraph{
   overflow: auto;
 }
-.rlMonster{
-  width: 13%;
-  margin-left: 45%;
+.btn {
+  background: #571857;
+  background-image: -webkit-linear-gradient(top, #571857, #0675ba);
+  background-image: -moz-linear-gradient(top, #571857, #0675ba);
+  background-image: -ms-linear-gradient(top, #571857, #0675ba);
+  background-image: -o-linear-gradient(top, #571857, #0675ba);
+  background-image: linear-gradient(to bottom, #571857, #0675ba);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
+
+.btn:hover {
+  background: #edf2f5;
+  background-image: -webkit-linear-gradient(top, #edf2f5, #ade5ff);
+  background-image: -moz-linear-gradient(top, #edf2f5, #ade5ff);
+  background-image: -ms-linear-gradient(top, #edf2f5, #ade5ff);
+  background-image: -o-linear-gradient(top, #edf2f5, #ade5ff);
+  background-image: linear-gradient(to bottom, #edf2f5, #ade5ff);
+  text-decoration: none;
+}
+
 
 
 
